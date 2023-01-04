@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/js/grid.js">
+</head>
+
+<body>
+    <header>
+
+        <!-- header navbar -->
+        <nav class="navbar">
+            <section class="navbar-brand">
+                <h5><a href="" class="brand"></a></h5>
+            </section>
+            <section class="header-menu-container">
+                <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars bars-icon"></i></button>
+                <ul class="header-menu" id="menu">
+                    <li class="header-menu-item"><a href="#about" class="header-menu-item-link">About</a></li>
+                    <li class="header-menu-item"><a href="#portfolio" class="header-menu-item-link">Portfolio</a>
+                    </li>
+                    <li class="header-menu-item"><a href="#contact" class="header-menu-item-link">Contact</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- header main content -->
+        <section class="banner-content-container">
+            <section class="banner-content">
+                <h1 class="banner-name-title">Rodriana <span class="banner-last-name"> Karimian</span></h1>
+                <h5 class="banner-text-title">Front-End Developer Based In Tehran</h5>
+                <button class="header-button" onClick="document.getElementById('about').scrollIntoView()">Get To Know
+                    Me<i class="fa fa-chevron-circle-down arrow-down"></i> </button>
+            </section>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <section class="about-sections-container">
+                <section class="about-paragraph-container">
+                    <h1 class="about-header">About me</h1>
+
+                    <section class="about-body">
+                        <p class="about-text">I am Rodriana Karimian, a 20 year old front-end developer based in Tehran.
+                            I am a positive, enthusiastic and competent web developer.
+                            I also embrace taking on challenges that rely on my hard skills as well as soft skills.
+                        </p>
+                    </section>
+                </section>
+                <section class="about-img-container">
+                    <img class="about-img" src="assets/images/PLAZ8515.JPG" alt="">
+                </section>
+            </section>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio" id="portfolio">
+            <section class="skills-container" id="skills">
+                <section class="portfolio-headers">
+                    <h1 class="portfolio-header-text">Skills</h1>
+                </section>
+                <section class="progress-container">
+                    <section class="container">
+                        <section class="circular-progress" id="circular-html-css">
+                            <span class="progress-value" id="value-html-css">100</span>
+                        </section>
+                        <span class="text">HTML5</span>
+                    </section>
+                    <section class="container">
+                        <section class="circular-progress">
+                            <span class="progress-value">100</span>
+                        </section>
+                        <span class="text">CSS3</span>
+                    </section>
+                    <section class="container">
+                        <section class="circular-progress">
+                            <span class="progress-value">40</span>
+                        </section>
+                        <span class="text">JavaScript</span>
+                    </section>
+                    <section class="container">
+                        <section class="circular-progress">
+                            <span class="progress-value">100</span>
+                        </section>
+                        <span class="text">Bootstrap</span>
+                    </section>
+                    <section class="container">
+                        <section class="circular-progress">
+                            <span class="progress-value">90</span>
+                        </section>
+                        <span class="text">Python</span>
+                    </section>
+                </section>
+
+                <section class="projects-container">
+                    <section class="portfolio-headers">
+                        <h1 class="portfolio-header-text">Projects</h1>
+                    </section>
+                    <section class="projects-text">
+                        <ul class="projects-outer-list">
+                            <li>
+                                <h2>Admin Panel</h2>
+                            </li>
+                            <ul class="porjects-inner-list">
+                                <li><a href="https://github.com/Rodrianaa/admin-panel.git" class="projects-link">Click
+                                        here to see the
+                                        project!</a>
+                                </li>
+                            </ul>
+                        </ul>
+                        <ul class="projects-outer-list">
+                            <li>
+                                <h2>Travel Agency</h2>
+                            </li>
+                            <ul class="porjects-inner-list">
+                                <li><a href="https://github.com/Rodrianaa/travel-agency.git" class="projects-link">Click
+                                        here to see the
+                                        project!</a>
+                                </li>
+                            </ul>
+                        </ul>
+                        <h3 class="projects-github">You can see more of my projects on my github | </h3>
+                        <a href="https://github.com/Rodrianaa" class="projects-link"> Click here to see my github
+                            profile!</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <section class="footer-text-header">
+                <p>Get In Touch</p>
+            </section>
+            <section class="footer-text">
+                <section class="email-section">
+                    <h3>email</h2>
+                        <p class="email"><a href="mailto:rodrianaa.k@gmail.com">rodrianaa.k@gmail.com</a></p>
+                </section>
+                <section class="social-media">
+                    <h3>social media</h2>
+                        <a href="https://github.com/Rodrianaa"><i class="fab fa-github github"></i></a>
+                </section>
+            </section>
+        </section>
+    </footer>
+    <script src=" assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/grid.js"></script>
+</body>
+
+</html>
