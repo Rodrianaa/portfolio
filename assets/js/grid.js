@@ -37,37 +37,4 @@ function callback() {
 
 
 callback()
-// Progress(document.querySelector(".circular-progress"), document.querySelector(".progress-value"))
-// Progress(document.querySelectorAll(".circular-progress")[1], document.querySelectorAll(".progress-value")[1])
-// Progress(document.querySelectorAll(".circular-progress")[2], document.querySelectorAll(".progress-value")[2])
-// Progress(document.querySelectorAll(".circular-progress")[3], document.querySelectorAll(".progress-value")[3])
-// Progress(document.querySelectorAll(".circular-progress")[4], document.querySelectorAll(".progress-value")[4])
 
-
-// const progresses = [0, 1, 2, 3, 4, 5]
-// const observer = new IntersectionObserver(entries => {
-//     entries.forEach(entry => {
-//         Progress(document.querySelectorAll(".circular-progress")[entry.target], document.querySelectorAll(".progress-value")[entry.target])
-//     })
-// },
-//     {
-//         threshold: 1,
-//     })
-
-// progresses.forEach(progress => {
-//     observer.observe(progress)
-// })
-
-
-// function createObserver() {
-//     let observer;
-
-//     let options = {
-//         root: null,
-//         rootMargin: "0px",
-//         threshold: 1
-//     };
-
-//     observer = new IntersectionObserver(callback(), options);
-//     observer.observe(document.getElementById(portfolio));
-// }
